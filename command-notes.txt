@@ -1,0 +1,26 @@
+ACTIVATING THE VIRTUAL ENVIRONMENT
+python3 -m venv env
+env\Scripts\activate
+
+COMMAND FOR BUILDING THE DOCKER CONTAINERS
+docker-compose up
+docker-compose up --build
+docker-compose up -d db
+
+CONNECTING TO THE SHELL
+docker-compose exec backend sh
+
+INITIALIZING THE DJANGO DB FROM INSIDE SHELL
+python manage.py makemigrations
+python manage.py migrate
+
+INITIALIZING THE FLASK GB FROM INSIDE SHELL
+python manager.py db --help
+python manager.py db init
+python manager.py db migrate
+python manager.py db upgrade
+
+
+
+
+
