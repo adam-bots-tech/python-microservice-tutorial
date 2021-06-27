@@ -16,13 +16,12 @@ Technologies Showcased:
 - Flask
 - SQL Alchemy
 - MySQL
-- React
 
 The admin microservice is done in Django and used as a central repository for product and user data. Modifications to the product data are published to the main app.
 
 The main microservice is done in Flask, keeps a copy of Product data from the admin app and handles tracking of product likes by users. When a product is liked, the ID is published to the admin app to update the database.
 
-The frontend microservice is done in React and provides a UI, which utilizes both microservices.
-
 The tutorial I used to build all of this can be found here: https://youtu.be/0iB5IPoTDts
+
+I didn't do the React portion of the tutorial as it's not relevant to my preferred area of work.
 
